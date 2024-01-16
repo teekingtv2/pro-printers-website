@@ -1,10 +1,8 @@
 'use client';
 import React from 'react';
 import PageHeader from '../globals/PageHeader';
-import HomeServices from '../home/section-3-services/HomeServices';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import HomeServiceCard from '../home/section-3-services/HomeServiceCard';
 import { carouselSettings } from '@/utils/carousel-setting';
 import { serviceData } from '@/data/data';
 import ServiceCard from './ServiceCard';
@@ -38,7 +36,6 @@ const ServicesBanner = () => {
             <FaArrowCircleRight />
           </Link>
         </div>
-        {/* <HomeServices /> */}
       </div>
     </div>
   );

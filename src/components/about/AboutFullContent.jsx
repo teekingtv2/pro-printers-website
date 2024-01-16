@@ -1,7 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import Link from 'next/link';
 import React from 'react';
-import { FaMailBulk } from 'react-icons/fa';
 import AboutFullLeft from './AboutFullLeft';
 import AboutFullRight from './AboutFullRight';
 

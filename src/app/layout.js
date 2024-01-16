@@ -10,8 +10,30 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: process.env.APP_NAME,
-  description: `Welcome to the leading software development compamy in Lagos. At Jaflah Software Development Company, we have the best hands in software related solutions such as web and mobile app development, app and website management and maintenance, issue debugging, UI/UX design, motion and general graphics design.`,
+  title: {
+    template: `%s | ${process.env.APP_NAME}`,
+    default: process.env.APP_NAME,
+  },
+  applicationName: process.env.APP_NAME,
+  description: `Welcome to the leading software development company in Lagos. At Jaflah Software Development Company, we have the best hands in software related solutions such as web and mobile app development, app and website management and maintenance, issue debugging, UI/UX design, motion and general graphics design.`,
+  keywords: [
+    'Website development',
+    'Jaflah',
+    'Jaflah software',
+    'Jaflah software development company',
+    'Mobile app development',
+    'Web design',
+    'Web development',
+    'Web development company',
+    'Web developers in Lagos',
+    'Mobile app developers in Lagos',
+    'Mobile app developers in Nigeria',
+    'Web developers in Nigeria',
+    'UI/UX design in Nigeria',
+    'UI/UX design in Lagos',
+  ],
+  author: ['Tunde Mudashir', 'Kehinde Adetule', 'Adeshoga Mariam'],
+  metadataBase: new URL('https://jaflah.com.ng'),
 };
 
 export default function RootLayout({ children }) {
