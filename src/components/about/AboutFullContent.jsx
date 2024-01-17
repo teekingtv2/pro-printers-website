@@ -9,7 +9,7 @@ const AboutFullContent = ({ setMore }) => {
       <div className="flex h-[80vh] md:h-full justify-center items-center">
         <div className="flex items-start gap-2 h-[80vh] mt-14 md:mt-0 px-2 md:px-0">
           <div
-            className="md:grid grid-cols-9 bg-[#000000] max-w-[800px] max-h-[85vh] px-5 rounded-xl"
+            className="md:grid grid-cols-9 bg-[#000] max-w-[800px] max-h-[90vh] md:max-h-[85vh] px-5 rounded-xl"
             style={{ overflowY: 'scroll' }}
           >
             <AboutFullLeft setMore={setMore} />
