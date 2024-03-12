@@ -34,25 +34,25 @@ const ContactBanner = () => {
             </div>
             <div className="px-5 py-[13px] md:py-3 bg-[#222222] w-full flex justify-start items-center gap-4 rounded-lg">
               <FaPhone size={19} className="text-[#FBAD18]" />
-              <Link href="tel/2348143443420" className="text-white">
+              <Link href="tel:2348143443420" className="text-white">
                 +234 814 3443 420
               </Link>
             </div>
             <div className="px-5 py-[13px] md:py-3 bg-[#222222] w-full flex justify-start items-center gap-4 rounded-lg">
               <BiLocationPlus size={20} className="text-[#FBAD18]" />
-              <Link href="mailto:info@jaflah.com.g" className="text-white">
-                info@jaflah.com
+              <Link href="mailto:info@jaflah.com.ng" className="text-white">
+                info@jaflah.com.ng
               </Link>
             </div>
             <div className="px-5 py-[13px] md:py-3 bg-[#222222] w-full flex justify-center md:justify-start items-center gap-4 rounded-lg">
               <div className="text-white">@jaflah03</div>
-              <Link href="https://instagram/jaflah03" className="text-white" target="__blank">
+              <Link href="https://instagram.com/jaflah03" className="text-white" target="__blank">
                 <FaInstagram size={25} className="text-[#FBAD18]" />
               </Link>
-              <Link href="https://instagram/jaflah03" className="text-white" target="__blank">
+              <Link href="https://x.com/jaflah03" className="text-white" target="__blank">
                 <FaTwitter size={25} className="text-[#FBAD18]" />
               </Link>
-              <Link href="https://instagram/jaflah03" className="text-white" target="__blank">
+              <Link href="https://facebook.com/jaflah03" className="text-white" target="__blank">
                 <FaFacebook size={25} className="text-[#FBAD18]" />
               </Link>
             </div>

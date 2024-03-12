@@ -33,7 +33,7 @@ const AboutFullLeft = ({ setMore }) => {
           <div>
             <div className="flex justify-start items-center">
               <BiMailSend className="me-2 text-md" />
-              <a href="mailto:info@jaflah.com">info@jaflah.com</a>
+              <a href="mailto:info@jaflah.com.ng">info@jaflah.com.ng</a>
             </div>
             <div
               style={{ borderBottom: '1px dashed #444', height: '4px', background: '' }}

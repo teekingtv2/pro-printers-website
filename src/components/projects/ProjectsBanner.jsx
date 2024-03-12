@@ -23,9 +23,9 @@ const ProjectsBanner = () => {
           className="flex items-center w-full"
         >
           {projects &&
-            projects.map((proj) => (
+            projects.map((proj, id) => (
               <div key={proj.id}>
-                <ProjectCard proj={proj} />
+                <ProjectCard proj={proj} id={id} />
               </div>
             ))}
         </Carousel>
