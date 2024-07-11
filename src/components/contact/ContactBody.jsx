@@ -9,6 +9,7 @@ import InputField from '../globals/forms/InputField';
 import SubmitButton from '../globals/forms/SubmitButton';
 import { useRouter } from 'next/navigation';
 import { contact } from '@/api';
+import { errorNotification, successNotification } from '@/utils/helpers';
 
 const ContactBody = () => {
   const router = useRouter();
@@ -17,16 +18,18 @@ const ContactBody = () => {
 
   const handleSubmit = async (values, { resetForm }) => {
     console.log('values:', values);
-    // const res = await contact(values);
-    // if (res.status === 200) {
-    //   successNotification(res.data);
-    //   resetForm();
-    //   setTimeout(() => {
-    //     router.push('/');
-    //   }, 3000);
-    // } else {
-    //   errorNotification(res.data);
-    // }
+    console.log(process.env.API_ENDPOINT);
+    const res = await contact(values);
+    console.log('res:', res);
+    if (res.status === 200) {
+      successNotification(res.data.message);
+      // resetForm();
+      setTimeout(() => {
+        router.push('/');
+      }, 3000);
+    } else {
+      errorNotification(res.data.message);
+    }
   };
 
   return (

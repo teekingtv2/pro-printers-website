@@ -11,6 +11,7 @@ import { useRouter } from 'next/navigation';
 import { donate } from '@/api';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import { errorNotification, successNotification } from '@/utils/helpers';
 
 const DonateBody = () => {
   const router = useRouter();
@@ -19,16 +20,16 @@ const DonateBody = () => {
 
   const handleSubmit = async (values, { resetForm }) => {
     console.log('values:', values);
-    // const res = await donate(values);
-    // if (res.status === 200) {
-    //   successNotification(res.data);
-    //   resetForm();
-    //   setTimeout(() => {
-    //     router.push('/');
-    //   }, 3000);
-    // } else {
-    //   errorNotification(res.data);
-    // }
+    const res = await donate(values);
+    if (res.status === 200) {
+      successNotification(res.data.message);
+      resetForm();
+      setTimeout(() => {
+        router.push('/');
+      }, 3000);
+    } else {
+      errorNotification(res.data.message);
+    }
   };
 
   return (
@@ -78,7 +79,7 @@ const DonateBody = () => {
                       </div>
                       <div className="col-span-1 md:col-span-2">
                         <div className="mb-1 text-[14px] font-semibold">Amount ($)</div>
-                        <InputField name="amount" placeholder="Amount" />
+                        <InputField type="number" name="amount" placeholder="Amount" />
                       </div>
                       <div className="col-span-1 md:col-span-2 flex justify-center">
                         <SubmitButton

@@ -37,7 +37,7 @@ const AboutThirdSection = () => {
             <img src="/images/vectors/culture.png" className="w-[70%] mx-auto" />
             <div className="text-[19px] font-medium my-3">Cultural Exchange</div>
             <div className="text-[14px]">
-              WWe facilitate cultural exchange programs, events, and festivals to promote
+              We facilitate cultural exchange programs, events, and festivals to promote
               cross-cultural understanding, diversity, and inclusion.
             </div>
           </div>
@@ -48,7 +48,7 @@ const AboutThirdSection = () => {
             <img src="/images/vectors/community.png" className="w-[70%] mx-auto" />
             <div className="text-[19px] font-medium my-3">Community Center Renovation</div>
             <div className="text-[14px]">
-              We're renovating a community center in [location] to create a safe space for local
+              We are renovating a community center in [location] to create a safe space for local
               youth and families.
             </div>
           </div>

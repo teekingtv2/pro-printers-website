@@ -46,7 +46,7 @@ const Navbar = () => {
       <div className="w-full shadow-lg z-[100] px-2 md:px-0 bg-[#060F3A]">
         <div className="flex justify-between items-center max-w-[1150px] mx-auto w-full h-full py-2 md:py-3">
           <Link href="/">
-            <img src="/images/logo.png" alt="Mudashir Tunde" className="w-[50px] md:w-[70px]" />
+            <img src="/images/logo.png" alt="VEDCA USA" className="w-[50px] md:w-[70px]" />
           </Link>
           <div>
             <ul
@@ -189,19 +189,19 @@ const Navbar = () => {
                 </p>
                 <div className="flex items-center justify-center gap-5 my-4 w-full sm:w-[80%] text-gray-200">
                   <Link
-                    href="https://x.com/jaflah03"
+                    href="https://x.com/"
                     className="rounded-full shadow-md shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
                   >
                     <FaTwitter />
                   </Link>
                   <Link
-                    href="https://instagram.com/jaflah03"
+                    href="https://instagram.com/"
                     className="rounded-full shadow-md shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
                   >
                     <FaInstagram />
                   </Link>
                   <Link
-                    href="https://facebook.com/jaflah03"
+                    href="https://facebook.com/"
                     className="rounded-full shadow-md shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
                   >
                     <FaFacebook />

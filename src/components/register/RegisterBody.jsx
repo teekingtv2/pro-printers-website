@@ -18,16 +18,17 @@ const RegisterBody = () => {
 
   const handleSubmit = async (values, { resetForm }) => {
     console.log('values:', values);
-    // const res = await userRegister(values);
-    // if (res.status === 200) {
-    //   successNotification(res.data);
-    //   resetForm();
-    //   setTimeout(() => {
-    //     router.push('/');
-    //   }, 3000);
-    // } else {
-    //   errorNotification(res.data);
-    // }
+    const res = await userRegister(values);
+    console.log('res:', res);
+    if (res.status === 200) {
+      successNotification(res.data.message);
+      resetForm();
+      setTimeout(() => {
+        router.push('/');
+      }, 3000);
+    } else {
+      errorNotification(res.data.message);
+    }
   };
 
   return (

@@ -74,8 +74,8 @@ const ProjectsBanner = () => {
               >
                 <div className="text-[18px] font-bold">Community Center Renovation</div>
                 <div className="text-[14px]">
-                  We're renovating a community center in [location] to create a safe space for local
-                  youth and families.
+                  We are renovating a community center in [location] to create a safe space for
+                  local youth and families.
                 </div>
                 <img src="/images/vectors/community.png" className="w-[90%] mx-auto" />
               </div>
@@ -100,8 +100,8 @@ const ProjectsBanner = () => {
               >
                 <div className="text-[18px] font-bold">Scholarship Program</div>
                 <div className="text-[14px]">
-                  We're providing scholarships to [number] students from marginalized communities to
-                  pursue higher education.
+                  We are providing scholarships to [number] students from marginalized communities
+                  to pursue higher education.
                 </div>
                 <img src="/images/vectors/scholarship.png" className="w-full" />
               </div>
@@ -139,7 +139,7 @@ const ProjectsBanner = () => {
               >
                 <div className="text-[18px] font-bold">Environmental Conservation</div>
                 <div className="text-[14px]">
-                  We're working with local communities to plant [number] trees and promote
+                  We are working with local communities to plant [number] trees and promote
                   sustainable agriculture practices.
                 </div>
                 <img src="/images/vectors/environmental.png" className="w-full" />

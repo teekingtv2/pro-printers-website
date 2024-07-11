@@ -16,7 +16,7 @@ const HomeGallery = () => {
             <div className="font-norma md:font-semibold text-15px md:text-[19px] my-3">
               Our mission is to empower our communities through health, education, cultural
               exchange, and sustainable development. We believe in the power of collaboration and
-              inclusivity, and we're dedicated to creating positive change in the world.
+              inclusivity, and we are dedicated to creating positive change in the world.
             </div>
             <Link href="/gallery" className="max-w-[220px] mt-5">
               <div className="btnn primaryBtnn text-md font-bold hover:border-b flex justify-center items-center">

@@ -33,14 +33,22 @@ const AboutTopSection = () => {
                   borderRadius: '15px',
                 }}
               >
-                <img src="/images/vectors/people.svg" className="h-[50px] w-[50px]" />
+                <img
+                  src="/images/vectors/people.svg"
+                  className="h-[50px] w-[50px]"
+                  alt={process.env.APP_NAME}
+                />
                 <div className="text-[18px] font-bold">For the culture...</div>
                 <div className="text-[14px]">
                   Vengo Development and Cultural Association USA is a non-profit organization
                   founded on the principles of social justice, cultural diversity, and community
                   engagement.
                 </div>
-                <img src="/images/vectors/people.png" className="w-full" />
+                <img
+                  src="/images/vectors/people.png"
+                  className="w-full"
+                  alt={process.env.APP_NAME}
+                />
               </div>
               <div
                 className="h-[15px] md:h-[100px]"
@@ -79,7 +87,11 @@ const AboutTopSection = () => {
                   of culture, performant and adaptive development, through values that promote
                   individual and collective prosperity in the civic life of the Vengo community
                 </div>
-                <img src="/images/vectors/associate.png" className="w-[90%] mx-auto" />
+                <img
+                  src="/images/vectors/associate.png"
+                  className="w-[90%] mx-auto"
+                  alt={process.env.APP_NAME}
+                />
               </div>
               <div
                 className="p-7 rounded-xl flex flex-col gap-3 bg-[#03194a] text-[#ffffff] relative"
@@ -100,6 +112,7 @@ const AboutTopSection = () => {
                 <img
                   src="/images/vectors/about-card.png"
                   className="w-[30%] absolute right-0 bottom-3 about-card-1"
+                  alt={process.env.APP_NAME}
                 />
               </div>
               <div
@@ -113,7 +126,11 @@ const AboutTopSection = () => {
                   Our team consists of passionate individuals from diverse backgrounds, united by a
                   shared vision of a better community for all.
                 </div>
-                <img src="/images/vectors/support-2.png" className="w-full" />
+                <img
+                  src="/images/vectors/support-2.png"
+                  className="w-full"
+                  alt={process.env.APP_NAME}
+                />
               </div>
               <div
                 className="h-[15px] md:h-[30px] "
@@ -154,7 +171,11 @@ const AboutTopSection = () => {
                   development initiatives. Our work is guided by the values of empathy, respect, and
                   transparency.
                 </div>
-                <img src="/images/vectors/support.png" className="w-full" />
+                <img
+                  src="/images/vectors/support.png"
+                  className="w-full"
+                  alt={process.env.APP_NAME}
+                />
               </div>
               <div
                 className="h-[15px] md:h-[100px]"
