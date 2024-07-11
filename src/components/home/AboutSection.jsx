@@ -10,7 +10,7 @@ const AboutSection = () => {
         <div className="max-w-[1000px] text-[17px] font-semibold mb-10">
           Welcome to Vengo Development and Cultural Association USA! Our mission is to empower our
           communities through health, education, cultural exchange, and sustainable development. We
-          believe in the power of collaboration and inclusivity, and we're dedicated to creating
+          believe in the power of collaboration and inclusivity, and we are dedicated to creating
           positive change in the world. Our members are based in the U.S.A and Canada Thus, if you
           are a son, daughter or sympathizer with the Vengo people in North America, once more,
           Welcome Home! Explore our website to learn more
