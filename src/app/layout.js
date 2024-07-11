@@ -1,9 +1,17 @@
 import Navbar from '@/components/globals/navbar/Navbar';
-import './globals.css';
-import { Inter, Roboto, Poppins } from 'next/font/google';
+import '../../public/styles/main.css';
+import { Inter, Roboto, Poppins, Raleway } from 'next/font/google';
+import Footer from '@/components/globals/Footer';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 // const inter = Inter({ subsets: ['latin'] });
-const poppins = Poppins({
+// const poppins = Poppins({
+//   subsets: ['latin'],
+//   display: 'swap',
+//   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+// });
+const raleway = Raleway({
   subsets: ['latin'],
   display: 'swap',
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
@@ -15,35 +23,46 @@ export const metadata = {
     default: process.env.APP_NAME,
   },
   applicationName: process.env.APP_NAME,
-  description: `Welcome to the leading software development company in Lagos. At Jaflah Software Development Company, we have the best hands in software related solutions such as web and mobile app development, app and website management and maintenance, issue debugging, UI/UX design, motion and general graphics design.`,
+  description: `Welcome to the Vengo Development & Cultural Association USA (VEDCAUSA), USA chapter - an NGO organisation representing the good Nigerians outside of our dear motherland.`,
   keywords: [
-    'Website development',
-    'Jaflah',
-    'Jaflah software',
-    'Jaflah software development company',
-    'Mobile app development',
-    'Web design',
-    'Web development',
-    'Web development company',
-    'Web developers in Lagos',
-    'Mobile app developers in Lagos',
-    'Mobile app developers in Nigeria',
-    'Web developers in Nigeria',
-    'UI/UX design in Nigeria',
-    'UI/UX design in Lagos',
+    'Vengo Development & Cultural Association (VEDCA)',
+    'Vengo Development & Cultural Association USA (VEDCAUSA)',
+    'Vengo Development & Cultural Association USA (VEDCA-USA)',
+    'VEDCAUSA',
+    'VEDCA',
+    'VEDCA non-governmental organization',
+    'VEDCA-USA',
   ],
-  author: ['Tunde Mudashir', 'Kehinde Adetule', 'Adeshoga Mariam'],
-  metadataBase: new URL('https://jaflah.com.ng'),
+  author: ['Tunde Mudashir - Jaflah Software Developmnt Company LTD'],
+  metadataBase: new URL('https://vedcausa.org'),
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={poppins.className}>
-        <div className="container">
-          <Navbar />
-          {children}
-        </div>
+      <meta property="og:title" content={`${process.env.APP_NAME}`} />
+      <meta name="theme-color" content="#03194a" />
+      <meta name="msapplication-navbutton-color" content="#03194a" />
+      <meta content="#03194a" name="msapplication-navbutton-color" />
+      <meta content="yes" name="apple-mobile-web-app-capable" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style" />
+      <link rel="icon" href="/images/favicon.png" type="image/<generated>" sizes="<generated>" />
+      <body className={raleway.className}>
+        <ToastContainer
+          position="top-right"
+          autoClose={3000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+        />
+        <Navbar />
+        <div>{children}</div>
+        <Footer />
       </body>
     </html>
   );

@@ -1,5 +1,8 @@
-import AboutBanner from '@/components/about/AboutBanner';
-import React from 'react';
+import AboutSecondSection from '@/components/about/AboutSecondSection';
+import AboutThirdSection from '@/components/about/AboutThirdSection';
+import AboutTopSection from '@/components/about/AboutTopSection';
+import FooterJoin from '@/components/globals/FooterJoin';
+import 'animate.css';
 
 export const metadata = {
   title: 'About Us',
@@ -8,7 +11,10 @@ export const metadata = {
 const AboutPage = () => {
   return (
     <>
-      <AboutBanner />
+      <AboutTopSection />
+      <AboutSecondSection />
+      <AboutThirdSection />
+      <FooterJoin />
     </>
   );
 };

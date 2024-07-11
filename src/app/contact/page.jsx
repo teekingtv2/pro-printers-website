@@ -1,14 +1,20 @@
-import ContactBanner from '@/components/contact/ContactBanner';
+'use client';
+
+import ContactBody from '@/components/contact/ContactBody';
+import Head from 'next/head';
 import React from 'react';
 
-export const metadata = {
-  title: 'Contact Us',
-};
+// export const metadata = {
+//   title: 'Contact Us',
+// };
 
 const ContactPage = () => {
   return (
     <>
-      <ContactBanner />
+      <Head>
+        <title>{`Contact Us | ${process.env.APP_NAME}`}</title>
+      </Head>
+      <ContactBody />
     </>
   );
 };

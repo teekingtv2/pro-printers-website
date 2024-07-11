@@ -1,34 +1,162 @@
 /* eslint-disable @next/next/no-img-element */
 'use client';
 import React from 'react';
-import ProjectCard from './ProjectCard';
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
-import { carouselSettings } from '@/utils/carousel-setting';
-import { projectsData } from '@/data/data';
-import PageHeader from '../globals/PageHeader';
 
 const ProjectsBanner = () => {
-  const projects = projectsData;
-
   return (
-    <div className="flex h-[92vh] md:h-[90vh]">
-      <div className="relative w-full h-full mx-auto px-4 flex flex-col justify-center items-start pb-12 md:pb-2">
-        <PageHeader title="Projects Portfolio" subheader="Our" header="Recent Projects" />
-
-        {/* <div className="flex justify-between items-center w-full"> */}
-        <Carousel
-          responsive={carouselSettings}
-          infinite={true}
-          className="flex items-center w-full"
-        >
-          {projects &&
-            projects.map((proj, id) => (
-              <div key={proj.id}>
-                <ProjectCard proj={proj} id={id} />
+    <div className="flex w-full h-full banner text-[#03194a] px-2 md:px-10 mx-auto">
+      <div className="bg-[#ffffff] w-full">
+        <div className="py-10 md:pt-[100px] md:pb-[0px] container px-3 md:px-[70px] animate__slower animate__animated animate__zoomIn">
+          <div className="md:w-[60%] mx-auto text-[24px] font-bold text-center">
+            Learn About Our Projects
+          </div>
+          <div className="grid grid-cols- md:grid-cols-3 gap-8 items-center">
+            <div
+              className="col-span-1 flex flex-col gap-7"
+              style={{ border: '1px dashed #ffffff' }}
+            >
+              <div
+                className="h-[15px] md:h-[100px]"
+                style={{
+                  borderLeft: '1px dashed #5f5f5f63',
+                  borderBottom: '1px dashed #5f5f5f63',
+                  borderRight: '1px dashed #5f5f5f63',
+                  borderBottomLeftRadius: '15px',
+                  borderBottomRightRadius: '15px',
+                }}
+              ></div>
+              <div
+                className="p-7 flex flex-col gap-3 banner updown text-[#ffffff]"
+                style={{
+                  border: '1px solid #5f5f5f63',
+                  borderRadius: '15px',
+                }}
+              >
+                <div className="text-[18px] font-bold">Health Service</div>
+                <div className="text-[14px]">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quasi ipsa, at
+                  sed incidunt, ab inventore vitae maiores voluptate hic iure, veniam cumque
+                  assumenda?
+                </div>
+                <img src="/images/vectors/health.png" className="w-full" />
               </div>
-            ))}
-        </Carousel>
+              <div
+                className="h-[15px] md:h-[100px]"
+                style={{
+                  borderLeft: '1px dashed #5f5f5f63',
+                  borderTop: '1px dashed #5f5f5f63',
+                  borderRight: '1px dashed #5f5f5f63',
+                  borderTopLeftRadius: '15px',
+                  borderTopRightRadius: '15px',
+                }}
+              ></div>
+            </div>
+            <div
+              className="col-span-1 flex flex-col gap-7"
+              style={{ border: '1px dashed #ffffff' }}
+            >
+              <div
+                className="h-[15px] md:h-[30px]"
+                style={{
+                  borderLeft: '1px dashed #5f5f5f63',
+                  borderBottom: '1px dashed #5f5f5f63',
+                  borderRight: '1px dashed #5f5f5f63',
+                  borderBottomLeftRadius: '15px',
+                  borderBottomRightRadius: '15px',
+                }}
+              ></div>
+              <div
+                className="p-7 rounded-xl flex flex-col gap-3 leftRight"
+                style={{
+                  border: '1px solid #5f5f5f63',
+                  borderRadius: '15px',
+                }}
+              >
+                <div className="text-[18px] font-bold">Community Center Renovation</div>
+                <div className="text-[14px]">
+                  We're renovating a community center in [location] to create a safe space for local
+                  youth and families.
+                </div>
+                <img src="/images/vectors/community.png" className="w-[90%] mx-auto" />
+              </div>
+              <div
+                className="p-7 h-[120px] rounded-xl flex flex-col gap-3 bg-[#03194a] text-[#ffffff] relative"
+                style={{
+                  border: '1px solid #5f5f5f63',
+                  borderRadius: '15px',
+                }}
+              >
+                <img
+                  src="/images/vectors/about-card.png"
+                  className="w-[30%] absolute left-[35%] bottom-3 about-card-1"
+                />
+              </div>
+              <div
+                className="p-7 rounded-xl flex flex-col gap-3 updown"
+                style={{
+                  border: '1px solid #5f5f5f63',
+                  borderRadius: '15px',
+                }}
+              >
+                <div className="text-[18px] font-bold">Scholarship Program</div>
+                <div className="text-[14px]">
+                  We're providing scholarships to [number] students from marginalized communities to
+                  pursue higher education.
+                </div>
+                <img src="/images/vectors/scholarship.png" className="w-full" />
+              </div>
+              <div
+                className="h-[15px] md:h-[30px] "
+                style={{
+                  borderLeft: '1px dashed #5f5f5f63',
+                  borderTop: '1px dashed #5f5f5f63',
+                  borderRight: '1px dashed #5f5f5f63',
+                  borderTopLeftRadius: '20px',
+                  borderTopRightRadius: '20px',
+                }}
+              ></div>
+            </div>
+            <div
+              className="col-span-1 flex flex-col gap-7"
+              style={{ border: '1px dashed #ffffff' }}
+            >
+              <div
+                className="h-[15px] md:h-[100px] "
+                style={{
+                  borderLeft: '1px dashed #5f5f5f63',
+                  borderBottom: '1px dashed #5f5f5f63',
+                  borderRight: '1px dashed #5f5f5f63',
+                  borderBottomLeftRadius: '15px',
+                  borderBottomRightRadius: '15px',
+                }}
+              ></div>
+              <div
+                className="p-7 flex flex-col gap-3 leftRight banner text-[#ffffff]"
+                style={{
+                  border: '1px solid #5f5f5f63',
+                  borderRadius: '15px',
+                }}
+              >
+                <div className="text-[18px] font-bold">Environmental Conservation</div>
+                <div className="text-[14px]">
+                  We're working with local communities to plant [number] trees and promote
+                  sustainable agriculture practices.
+                </div>
+                <img src="/images/vectors/environmental.png" className="w-full" />
+              </div>
+              <div
+                className="h-[15px] md:h-[100px]"
+                style={{
+                  borderLeft: '1px dashed #5f5f5f63',
+                  borderTop: '1px dashed #5f5f5f63',
+                  borderRight: '1px dashed #5f5f5f63',
+                  borderTopLeftRadius: '15px',
+                  borderTopRightRadius: '15px',
+                }}
+              ></div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -1,69 +1,43 @@
-'use client';
-import Link from 'next/link';
-import React, { useEffect, useState } from 'react';
-
 const HomeBannerSection = () => {
-  const [loopNum, setLoopNum] = useState(0);
-  const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = [
-    'Software Solutions',
-    'Web App Development',
-    'Mobile App Development',
-    'Project Management',
-    'Motion Graphics Design',
-    'UI/UX Design',
-  ];
-  const [text, setText] = useState('');
-  const period = 500;
-  const [delta, setDelta] = useState(200 - Math.random() * 100);
-
-  useEffect(() => {
-    let ticker = setInterval(() => {
-      tick();
-    }, delta);
-
-    return () => {
-      clearInterval(ticker);
-    };
-  }, [text]);
-
-  const tick = () => {
-    let i = loopNum % toRotate.length;
-    let fullText = toRotate[i];
-    let updatedText = isDeleting
-      ? fullText.substring(0, text.length - 1)
-      : fullText.substring(0, text.length + 1);
-
-    setText(updatedText);
-
-    if (isDeleting) {
-      setDelta((prevDelta) => prevDelta / 2);
-    }
-
-    if (!isDeleting && updatedText === fullText) {
-      setIsDeleting(true);
-      setDelta(period);
-    } else if (isDeleting && updatedText === '') {
-      setIsDeleting(false);
-      setLoopNum(loopNum + 1);
-      setDelta(300);
-    }
-  };
-
   return (
-    <div className="flex h-[92vh] md:h-[90vh]">
-      <div className="w-full h-full mx-auto px-4 flex flex-col justify-center items-center pb-12 md:pb-2">
-        <h1 className="uppercase text-center mb-0 textBlueGradient text-[70px]">Jaflah</h1>
-        <h2 className="text-[#e55151] text-[21px] text-center leading-6 md:mt-[-11px]">
-          <span className="text-white bg-black">Software Development Company</span>
-        </h2>
-        <h2 className="text-gray-400 text-[17px] md:text-[19px] my-2">
-          Best hands in <span className="text-white">{text}</span>
-        </h2>
-        <button>
-          <Link href="/about">What we do</Link>
-        </button>
-        {/* <img src="/images/team/piafo.webp" alt="" height={300} width={300} /> */}
+    <div className="flex banner w-full h-full">
+      <div className="py-10 md:py-[130px] container pb-[50px] grid grid-cols-1 md:grid-cols-8 gap-10 md:gap-0 px-5">
+        <div className="col-span-5 text-left">
+          <div className="md:max-w-[80%]">
+            <div className="mb-0 text-white text-[20px] font-medium">Welcome to</div>
+            <h1 className="text-white text-30px md:text-[40px] mb-5">
+              Vengo Development and Cultural Association USA
+            </h1>
+            <div className="text-white text-[19px] my-2">
+              ...a non-profit organization founded on the principles of social justice, cultural
+              diversity, and community engagement
+            </div>
+            <div className="text-white text-[17px] md:text-[22px] my-5">
+              Our work is guided by the values of empathy, respect, and transparency.
+            </div>
+
+            <div className="w-[250px] h-[150px] relative mt-9">
+              <img
+                src="/images/events/12.jpg"
+                alt=""
+                className="w-[100px] h-[100px] rounded-[50px] border-[1px] border-[#fff] absolute top-0 left-0 z-10"
+              />
+              <img
+                src="/images/events/2.jpg"
+                alt=""
+                className="w-[100px] h-[100px] rounded-[50px] border-[1px] border-[#fff] absolute bottom-0 left-[27%] z-20"
+              />
+              <img
+                src="/images/events/16.jpg"
+                alt=""
+                className="w-[100px] h-[100px] rounded-[50px] border-[1px] border-[#fff] absolute top-1 right-5 z-30"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="col-span-3 flex justify-center items-center">
+          <img src="/images/banner2.png" alt="" className="w-[300px] md:w-[500px]" />
+        </div>
       </div>
     </div>
   );

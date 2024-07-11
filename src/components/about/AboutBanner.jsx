@@ -1,46 +1,38 @@
 /* eslint-disable @next/next/no-img-element */
 'use client';
-import React, { useState } from 'react';
-import AboutFullContent from './AboutFullContent';
-import Image from 'next/image';
 
 const AboutBanner = () => {
-  const [more, setMore] = useState(false);
-
   return (
-    <div className="flex h-[92vh] md:h-[90vh] ">
-      <div className="w-full h-full mx-auto px-4 flex flex-col justify-center pb-12 md:pb-2">
-        <div className="md:grid grid-cols-10">
-          <div className="col-span-5 flex justify-center pb-10 md:pb-0">
-            <img
-              src="/images/mobile-device.png"
-              alt="Jaflah Software Development Company"
-              className="w-[250px] md:w-[80%]"
-            />
-          </div>
-          <div className="col-span-5 flex flex-col justify-center items-start">
-            <h1 className="uppercase textBlueGradient text-center mb-0">
-              Jaf<span className="text-[#e55151]">lah</span>
-            </h1>
-            {/* <Image src="/images/logo.png" alt="Mudashir Tunde" width="190" height="50" /> */}
-            <h2 className="text-gray-400 text-[19px] md:text-[21px] text-center leading-6 mt-2 mb-3">
-              <span className="text-white">Software Development Company</span>
-            </h2>
-            <div
-              style={{ borderBottom: '1px dashed #444', height: '4px', background: '' }}
-              className="w-full mt-3 mb-6"
-            ></div>
-            <p className="">
-              Jaflah Software Development Company is a Nigerian business software company that
-              specializes in delivering top notch software development solutions to businesses and
-              individuals in the country and beyond.
-            </p>
-            <button className="mt-7 md:mt-10" onClick={() => setMore(true)}>
-              Learn more
-            </button>
+    <div className="flex w-full h-full banner text-[#ffffff]">
+      <div className="py-10 md:pt-[100px] md:pb-[100px] container">
+        <div className="text-[30px] font-bold text-center mb-6">About VEDCA-USA</div>
+        <div className="col-span-1 text-left">
+          <div
+            className="md:max-w-[70%] mx-auto p-7 rounded-lg "
+            style={{ border: '1px dashed #ffffff' }}
+          >
+            <div className="text-[21px] text-center font-semibold mb-5">
+              Vengo Development and Cultural Association (VEDCA-USA)
+            </div>
+            <div className="text-[15px] my-3">
+              Vengo Development and Cultural Association USA is a non-profit organization founded on
+              the principles of social justice, cultural diversity, and community engagement. As a
+              non-profit, non-governmental organization, VEDCA-USA shall be non-partisan and
+              apolitical.
+            </div>
+            <div className="text-[15px] my-3">
+              VEDCA-USA is an inclusive association nurturing a holistic frame for the promotion of
+              culture, performant and adaptive development, through values that promote individual
+              and collective prosperity in the civic life of the Vengo community
+            </div>
+            <div className="text-[15px] my-3">
+              Our team consists of passionate individuals from diverse backgrounds, united by a
+              shared vision of a better community for all. We strive to create opportunities for our
+              communities and support sustainable development initiatives. Our work is guided by the
+              values of empathy, respect, and transparency
+            </div>
           </div>
         </div>
-        {more ? <AboutFullContent setMore={setMore} /> : null}
       </div>
     </div>
   );
