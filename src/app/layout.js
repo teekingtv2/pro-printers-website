@@ -66,8 +66,8 @@ export default function RootLayout({ children }) {
         <Navbar />
         <div>{children}</div>
         <Footer />
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>AOS.init()</script>
+        {/* <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>AOS.init()</script> */}
       </body>
     </html>
   );

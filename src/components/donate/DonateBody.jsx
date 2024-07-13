@@ -102,7 +102,7 @@ const DonateBody = () => {
               </div>
             )}
           </TrackVisibility>
-          <div className="col-span-1 p-5 rounded-lg " data-aos="fade-in">
+          <div className="col-span-1 p-5 rounded-lg ">
             <img
               src="/images/vectors/donate.gif"
               className="w-[80%] text-center dancingSlide"
