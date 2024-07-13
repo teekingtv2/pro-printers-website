@@ -13,6 +13,15 @@ import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import { errorNotification, successNotification } from '@/utils/helpers';
 
+// import AOS from 'aos';
+// import 'aos/dist/aos.css';
+
+// AOS.init({
+//   useClassNames: true,
+//   initClassName: false,
+//   animatedClassName: 'animated',
+// });
+
 const DonateBody = () => {
   const router = useRouter();
   const initialValues = donateValues();
@@ -93,7 +102,7 @@ const DonateBody = () => {
               </div>
             )}
           </TrackVisibility>
-          <div className="col-span-1 p-5 rounded-lg ">
+          <div className="col-span-1 p-5 rounded-lg " data-aos="fade-in">
             <img
               src="/images/vectors/donate.gif"
               className="w-[80%] text-center dancingSlide"

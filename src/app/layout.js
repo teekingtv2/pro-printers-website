@@ -40,14 +40,17 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <meta property="og:title" content={`${process.env.APP_NAME}`} />
-      <meta name="theme-color" content="#03194a" />
-      <meta name="msapplication-navbutton-color" content="#03194a" />
-      <meta content="#03194a" name="msapplication-navbutton-color" />
-      <meta content="yes" name="apple-mobile-web-app-capable" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style" />
-      <link rel="icon" href="/images/favicon.png" type="image/<generated>" sizes="<generated>" />
+      <head>
+        <meta property="og:title" content={`${process.env.APP_NAME}`} />
+        <meta name="theme-color" content="#03194a" />
+        <meta name="msapplication-navbutton-color" content="#03194a" />
+        <meta content="#03194a" name="msapplication-navbutton-color" />
+        <meta content="yes" name="apple-mobile-web-app-capable" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style" />
+        <link rel="icon" href="/images/favicon.png" type="image/<generated>" sizes="<generated>" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      </head>
       <body className={raleway.className}>
         <ToastContainer
           position="top-right"
@@ -63,6 +66,8 @@ export default function RootLayout({ children }) {
         <Navbar />
         <div>{children}</div>
         <Footer />
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>AOS.init()</script>
       </body>
     </html>
   );

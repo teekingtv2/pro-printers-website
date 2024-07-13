@@ -28,7 +28,12 @@ const HomeGallery = () => {
             </Link>
           </div>
         </div>
-        <div className="w-[80%] ms-auto md:w-[100%] col-span-4 md:col-span-2 grid grid-cols-3 home-gallery-card rounded-lg dancingSlide">
+        <div
+          className="w-[80%] ms-auto md:w-[100%] col-span-4 md:col-span-2 grid grid-cols-3 home-gallery-card rounded-lg dancingSlide"
+          data-aos="zoom-in-down"
+          data-aos-duration="3000"
+          data-aos-easing="ease-in"
+        >
           <Link href="/images/events/4.jpg" className="col-span-1">
             <img
               src="/images/events/4.jpg"
