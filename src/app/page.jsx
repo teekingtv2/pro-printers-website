@@ -10,9 +10,6 @@ import HomeChapters from '@/components/home/HomeChapters';
 const HomePage = () => {
   return (
     <>
-      {/* <HomeBannerSection /> */}
-      {/* <BannerBottomSection /> */}
-      {/* <AboutSection /> */}
       <HomeBanner />
       <HomeBannerBottom />
       <HomeChapters />

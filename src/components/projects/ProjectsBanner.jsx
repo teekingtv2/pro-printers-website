@@ -37,7 +37,11 @@ const ProjectsBanner = () => {
                   We provide support in delivering preventive, care, and treatment services to
                   individuals affected by diseases of significant public health concern.
                 </div>
-                <img src="/images/vectors/health.png" className="w-full" />
+                <img
+                  src="/images/vectors/health.png"
+                  alt="Vengo Development & Cultural Association"
+                  className="w-full"
+                />
               </div>
               <div
                 className="h-[15px] md:h-[100px]"
@@ -76,7 +80,11 @@ const ProjectsBanner = () => {
                   We are renovating a community center in [location] to create a safe space for
                   local youth and families.
                 </div>
-                <img src="/images/vectors/community.png" className="w-[90%] mx-auto" />
+                <img
+                  src="/images/vectors/community.png"
+                  alt="Vengo Development & Cultural Association"
+                  className="w-[90%] mx-auto"
+                />
               </div>
               <div
                 className="p-7 h-[120px] rounded-xl flex flex-col gap-3 bg-[#03194a] text-[#ffffff] relative"
@@ -87,6 +95,7 @@ const ProjectsBanner = () => {
               >
                 <img
                   src="/images/vectors/about-card.png"
+                  alt="Vengo Development & Cultural Association"
                   className="w-[30%] absolute left-[35%] bottom-3 about-card-1"
                 />
               </div>
@@ -102,7 +111,11 @@ const ProjectsBanner = () => {
                   We are providing scholarships to [number] students from marginalized communities
                   to pursue higher education.
                 </div>
-                <img src="/images/vectors/scholarship.png" className="w-full" />
+                <img
+                  src="/images/vectors/scholarship.png"
+                  alt="Vengo Development & Cultural Association"
+                  className="w-full"
+                />
               </div>
               <div
                 className="h-[15px] md:h-[30px] "
@@ -141,7 +154,11 @@ const ProjectsBanner = () => {
                   We are working with local communities to plant [number] trees and promote
                   sustainable agriculture practices.
                 </div>
-                <img src="/images/vectors/environmental.png" className="w-full" />
+                <img
+                  src="/images/vectors/environmental.png"
+                  alt="Vengo Development & Cultural Association"
+                  className="w-full"
+                />
               </div>
               <div
                 className="h-[15px] md:h-[100px]"
