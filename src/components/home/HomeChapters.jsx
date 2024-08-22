@@ -6,7 +6,7 @@ const HomeChapters = () => {
   return (
     <div className="flex w-full h-full colour-banner text-[#03194a] px-2 md:px-[100px] py-10 md:py-[100px] mx-auto">
       <div className="bg-[#ffffff] w-full rounded-xl md:rounded-[50px]">
-        <div className="py-10 md:pt-[100px] md:pb-[0px] container px-3 md:px-[70px] animate__slower animate__animated animate__zoomIn">
+        <div className="py-[50px] md:pt-[100px] md:pb-[0px] container px-3 md:px-[70px] animate__slower animate__animated animate__zoomIn">
           <div className="md:w-[60%] mx-auto text-[24px] font-bold text-center">
             VEDCA Chapters and Branches
           </div>
