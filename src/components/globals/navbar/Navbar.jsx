@@ -75,6 +75,13 @@ const Navbar = () => {
                 <li className="navLink">Projects</li>
               </Link>
               <Link
+                href="/programs"
+                className={activeLink === 'programs' ? 'active' : ''}
+                onClick={() => onUpdateActiveLink('programs')}
+              >
+                <li className="navLink">Programs</li>
+              </Link>
+              <Link
                 href="/contact"
                 className={activeLink === 'contact' ? 'active' : ''}
                 onClick={() => onUpdateActiveLink('contact')}
@@ -160,6 +167,13 @@ const Navbar = () => {
                   className={activeLink === 'projects' ? 'active' : 'text-gray-200'}
                 >
                   <li className="py-4 text-sm">Projects</li>
+                </Link>
+                <Link
+                  onClick={() => setNav(false)}
+                  href="/programs"
+                  className={activeLink === 'programs' ? 'active' : 'text-gray-200'}
+                >
+                  <li className="py-4 text-sm">Programs</li>
                 </Link>
                 <Link
                   onClick={() => setNav(false)}

@@ -2,13 +2,13 @@
 'use client';
 import React from 'react';
 
-const ProjectsBanner = () => {
+const HomeChapters = () => {
   return (
-    <div className="flex w-full h-full banner text-[#03194a] px-2 md:px-10 mx-auto">
-      <div className="bg-[#ffffff] w-full">
+    <div className="flex w-full h-full colour-banner text-[#03194a] px-2 md:px-[100px] py-10 md:py-[100px] mx-auto">
+      <div className="bg-[#ffffff] w-full rounded-xl md:rounded-[50px]">
         <div className="py-10 md:pt-[100px] md:pb-[0px] container px-3 md:px-[70px] animate__slower animate__animated animate__zoomIn">
           <div className="md:w-[60%] mx-auto text-[24px] font-bold text-center">
-            Learn About Our Projects
+            VEDCA Chapters and Branches
           </div>
           <div className="grid grid-cols- md:grid-cols-3 gap-8 items-center">
             <div
@@ -34,8 +34,9 @@ const ProjectsBanner = () => {
               >
                 <div className="text-[18px] font-bold">Health Service</div>
                 <div className="text-[14px]">
-                  We provide support in delivering preventive, care, and treatment services to
-                  individuals affected by diseases of significant public health concern.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quasi ipsa, at
+                  sed incidunt, ab inventore vitae maiores voluptate hic iure, veniam cumque
+                  assumenda?
                 </div>
                 <img src="/images/vectors/health.png" className="w-full" />
               </div>
@@ -161,4 +162,4 @@ const ProjectsBanner = () => {
   );
 };
 
-export default ProjectsBanner;
+export default HomeChapters;

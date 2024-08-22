@@ -62,7 +62,8 @@ const HomeBanner = () => {
             style={{ borderRadius: '50px' }}
           />
           <img
-            src="/images/vectors/home-banner.png"
+            // src="/images/vectors/home-banner.png"
+            src="/images/home/africans.png"
             alt=""
             className="h-full z-20"
             style={{ borderRadius: '50px' }}

@@ -45,7 +45,8 @@ const AboutTopSection = () => {
                   engagement.
                 </div>
                 <img
-                  src="/images/vectors/people.png"
+                  // src="/images/vectors/people.png"
+                  src="/images/events/6.jpg"
                   className="w-full"
                   alt={process.env.APP_NAME}
                 />
@@ -88,7 +89,8 @@ const AboutTopSection = () => {
                   individual and collective prosperity in the civic life of the Vengo community
                 </div>
                 <img
-                  src="/images/vectors/associate.png"
+                  // src="/images/vectors/associate.png"
+                  src="/images/events/3.jpg"
                   className="w-[90%] mx-auto"
                   alt={process.env.APP_NAME}
                 />
@@ -127,7 +129,8 @@ const AboutTopSection = () => {
                   shared vision of a better community for all.
                 </div>
                 <img
-                  src="/images/vectors/support-2.png"
+                  // src="/images/vectors/support-2.png"
+                  src="/images/events/16.jpg"
                   className="w-full"
                   alt={process.env.APP_NAME}
                 />
@@ -172,7 +175,8 @@ const AboutTopSection = () => {
                   transparency.
                 </div>
                 <img
-                  src="/images/vectors/support.png"
+                  // src="/images/vectors/support.png"
+                  src="/images/events/7.jpg"
                   className="w-full"
                   alt={process.env.APP_NAME}
                 />

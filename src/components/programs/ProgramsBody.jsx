@@ -2,13 +2,13 @@
 'use client';
 import React from 'react';
 
-const ProjectsBanner = () => {
+const ProgramsBody = () => {
   return (
     <div className="flex w-full h-full banner text-[#03194a] px-2 md:px-10 mx-auto">
       <div className="bg-[#ffffff] w-full">
         <div className="py-10 md:pt-[100px] md:pb-[0px] container px-3 md:px-[70px] animate__slower animate__animated animate__zoomIn">
           <div className="md:w-[60%] mx-auto text-[24px] font-bold text-center">
-            Learn About Our Projects
+            Learn About Our Programs
           </div>
           <div className="grid grid-cols- md:grid-cols-3 gap-8 items-center">
             <div
@@ -32,10 +32,10 @@ const ProjectsBanner = () => {
                   borderRadius: '15px',
                 }}
               >
-                <div className="text-[18px] font-bold">Health Service</div>
+                <div className="text-[18px] font-bold">Sustainable Development</div>
                 <div className="text-[14px]">
-                  We provide support in delivering preventive, care, and treatment services to
-                  individuals affected by diseases of significant public health concern.
+                  We support community-led initiatives and projects focused on health, environmental
+                  conservation, renewable energy, and sustainable livelihoods.
                 </div>
                 <img src="/images/vectors/health.png" className="w-full" />
               </div>
@@ -71,10 +71,11 @@ const ProjectsBanner = () => {
                   borderRadius: '15px',
                 }}
               >
-                <div className="text-[18px] font-bold">Community Center Renovation</div>
+                <div className="text-[18px] font-bold">Education and Skills Development</div>
                 <div className="text-[14px]">
-                  We are renovating a community center in [location] to create a safe space for
-                  local youth and families.
+                  We offer training programs, workshops, and scholarships to individuals from
+                  underserved communities, focusing on skills development, literacy, and vocational
+                  training.
                 </div>
                 <img src="/images/vectors/community.png" className="w-[90%] mx-auto" />
               </div>
@@ -97,10 +98,10 @@ const ProjectsBanner = () => {
                   borderRadius: '15px',
                 }}
               >
-                <div className="text-[18px] font-bold">Scholarship Program</div>
+                <div className="text-[18px] font-bold">Cultural Exchange</div>
                 <div className="text-[14px]">
-                  We are providing scholarships to [number] students from marginalized communities
-                  to pursue higher education.
+                  We facilitate cultural exchange programs, events, and festivals to promote
+                  cross-cultural understanding, diversity, and inclusion.
                 </div>
                 <img src="/images/vectors/scholarship.png" className="w-full" />
               </div>
@@ -136,10 +137,10 @@ const ProjectsBanner = () => {
                   borderRadius: '15px',
                 }}
               >
-                <div className="text-[18px] font-bold">Environmental Conservation</div>
+                <div className="text-[18px] font-bold"> Community Center Renovation</div>
                 <div className="text-[14px]">
-                  We are working with local communities to plant [number] trees and promote
-                  sustainable agriculture practices.
+                  We're renovating a community center in [location] to create a safe space for local
+                  youth and families.
                 </div>
                 <img src="/images/vectors/environmental.png" className="w-full" />
               </div>
@@ -161,4 +162,4 @@ const ProjectsBanner = () => {
   );
 };
 
-export default ProjectsBanner;
+export default ProgramsBody;

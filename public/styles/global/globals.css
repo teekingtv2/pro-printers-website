@@ -81,7 +81,7 @@ html {
   }
   .contact-card {
     @apply border rounded-lg py-2 px-3 w-full bg-transparent;
-    border: 1px dashed #000000;
+    border: 1px dashed #00000049;
     box-shadow: 4px 4px 10px #0000002d;
   }
 }
@@ -158,6 +158,13 @@ ul li {
   width: 100% !important;
   /* background: #03194a; */
   background-image: url('/images/banner-blue-brick.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.colour-banner {
+  width: 100% !important;
+  background: #02153d;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;

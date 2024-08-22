@@ -5,6 +5,7 @@ import HomeBanner from '@/components/home/HomeBanner';
 import HomeBannerBottom from '@/components/home/HomeBannerBottom';
 import HomeDonate from '@/components/home/HomeDonate';
 import FooterJoin from '@/components/globals/FooterJoin';
+import HomeChapters from '@/components/home/HomeChapters';
 
 const HomePage = () => {
   return (
@@ -14,6 +15,7 @@ const HomePage = () => {
       {/* <AboutSection /> */}
       <HomeBanner />
       <HomeBannerBottom />
+      <HomeChapters />
       <HomeGallery />
       <HomeDonate />
       <FooterJoin />
