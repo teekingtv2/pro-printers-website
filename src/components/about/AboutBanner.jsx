@@ -4,7 +4,7 @@
 const AboutBanner = () => {
   return (
     <div className="flex w-full h-full banner text-[#ffffff]">
-      <div className="py-10 md:pt-[100px] md:pb-[100px] container">
+      <div className="py-[70px] md:pt-[100px] md:pb-[100px] container">
         <div className="text-[30px] font-bold text-center mb-6">About VEDCA-USA</div>
         <div className="col-span-1 text-left">
           <div

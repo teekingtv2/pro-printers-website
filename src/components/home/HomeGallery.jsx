@@ -7,7 +7,7 @@ const HomeGallery = () => {
   return (
     // <div className="flex home-gallery w-full h-full mt-[-120px]">
     <div className="flex bg-[#e9faef] w-full h-full">
-      <div className="py-10 md:py-[100px] container pb-[50px] grid grid-cols-1 md:grid-cols-6 gap-10 md:gap-0 px-5">
+      <div className="py-[70px] md:py-[100px] container pb-[50px] grid grid-cols-1 md:grid-cols-6 gap-10 md:gap-0 px-5">
         <div className="col-span-4 text-left ">
           <div className="md:max-w-[90%] h-full flex flex-col justify-center text-[#03194a]">
             <div className="font-extrabold text-[30px] md:text-[40px] mb-3 md:mb-10 leading-[2.5rem] md:leading-[3rem] z-30">

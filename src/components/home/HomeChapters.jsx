@@ -6,7 +6,7 @@ const HomeChapters = () => {
   return (
     <div className="flex w-full h-full colour-banner text-[#03194a] px-2 md:px-[100px] py-10 md:py-[100px] mx-auto">
       <div className="bg-[#ffffff] w-full rounded-xl md:rounded-[50px]">
-        <div className="py-[50px] md:pt-[100px] md:pb-[0px] container px-3 md:px-[70px] animate__slower animate__animated animate__zoomIn">
+        <div className="py-[70px] md:pt-[100px] md:pb-[0px] container px-3 md:px-[70px] animate__slower animate__animated animate__zoomIn">
           <div className="md:w-[60%] mx-auto text-[24px] font-bold text-center">
             VEDCA Chapters and Branches
           </div>
@@ -32,13 +32,16 @@ const HomeChapters = () => {
                   borderRadius: '15px',
                 }}
               >
-                <div className="text-[18px] font-bold">Health Service</div>
+                <div className="text-[18px] font-bold">VEDCA DMV Branch</div>
                 <div className="text-[14px]">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quasi ipsa, at
-                  sed incidunt, ab inventore vitae maiores voluptate hic iure, veniam cumque
-                  assumenda?
+                  Brief description, Chapter Exco Team, meeting date of the month
                 </div>
-                <img src="/images/vectors/health.png" className="w-full" />
+                <img
+                  // src="/images/vectors/health.png"
+                  src="/images/events/16.jpg"
+                  alt="Vengo Development & Cultural Association"
+                  className="w-full"
+                />
               </div>
               <div
                 className="h-[15px] md:h-[100px]"
@@ -72,12 +75,16 @@ const HomeChapters = () => {
                   borderRadius: '15px',
                 }}
               >
-                <div className="text-[18px] font-bold">Community Center Renovation</div>
+                <div className="text-[18px] font-bold">VEDCA Texas Branch</div>
                 <div className="text-[14px]">
-                  We are renovating a community center in [location] to create a safe space for
-                  local youth and families.
+                  Brief description, Chapter Exco Team, meeting date of the month
                 </div>
-                <img src="/images/vectors/community.png" className="w-[90%] mx-auto" />
+                <img
+                  // src="/images/vectors/community.png"
+                  src="/images/events/9.jpg"
+                  alt="Vengo Development & Cultural Association"
+                  className="w-[90%] mx-auto"
+                />
               </div>
               <div
                 className="p-7 h-[120px] rounded-xl flex flex-col gap-3 bg-[#03194a] text-[#ffffff] relative"
@@ -88,6 +95,7 @@ const HomeChapters = () => {
               >
                 <img
                   src="/images/vectors/about-card.png"
+                  alt="Vengo Development & Cultural Association"
                   className="w-[30%] absolute left-[35%] bottom-3 about-card-1"
                 />
               </div>
@@ -98,12 +106,16 @@ const HomeChapters = () => {
                   borderRadius: '15px',
                 }}
               >
-                <div className="text-[18px] font-bold">Scholarship Program</div>
+                <div className="text-[18px] font-bold">VEDCA Tri-State Branch</div>
                 <div className="text-[14px]">
-                  We are providing scholarships to [number] students from marginalized communities
-                  to pursue higher education.
+                  Brief description, Chapter Exco Team, meeting date of the month
                 </div>
-                <img src="/images/vectors/scholarship.png" className="w-full" />
+                <img
+                  // src="/images/vectors/scholarship.png"
+                  src="/images/events/12.jpg"
+                  alt=""
+                  className="w-full"
+                />
               </div>
               <div
                 className="h-[15px] md:h-[30px] "
@@ -137,12 +149,16 @@ const HomeChapters = () => {
                   borderRadius: '15px',
                 }}
               >
-                <div className="text-[18px] font-bold">Environmental Conservation</div>
+                <div className="text-[18px] font-bold">VENMCUDA: Home Base</div>
                 <div className="text-[14px]">
-                  We are working with local communities to plant [number] trees and promote
-                  sustainable agriculture practices.
+                  Brief description, Chapter Exco Team, meeting date of the month
                 </div>
-                <img src="/images/vectors/environmental.png" className="w-full" />
+                <img
+                  // src="/images/vectors/environmental.png"
+                  src="/images/events/6.jpg"
+                  alt=""
+                  className="w-full"
+                />
               </div>
               <div
                 className="h-[15px] md:h-[100px]"

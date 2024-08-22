@@ -57,14 +57,14 @@ const HomeBanner = () => {
         <div className="me-[-20px] col-span-5 flex justify-center items-center relative dancingSlide">
           <img
             src="/images/vectors/bgs/circle-blue.png"
-            alt=""
+            alt="Vengo Development & Cultural Association"
             className="absolute top-0 w-full h-full z-10"
             style={{ borderRadius: '50px' }}
           />
           <img
             // src="/images/vectors/home-banner.png"
             src="/images/home/africans.png"
-            alt=""
+            alt="Vengo Development & Cultural Association"
             className="h-full z-20"
             style={{ borderRadius: '50px' }}
           />
@@ -73,7 +73,11 @@ const HomeBanner = () => {
         <div className="animate__slower animate__animated animate__zoomInRight col-span-2 flex md:flex-col justify-center md:ms-10 mt-5 md:mt-0 gap-5 md:gap-10">
           <div className="flex flex-col md:flex-row items-center gap-2">
             <div className="h-[75px] w-[65px] bg-[#03194a] rounded-xl p-2">
-              <img src="/images/vectors/home-small/growth.png" alt="" className="h-full" />
+              <img
+                src="/images/vectors/home-small/growth.png"
+                alt="Vengo Development & Cultural Association"
+                className="h-full"
+              />
             </div>
             <div className="flex flex-col text-center md:text-start">
               <div className="text-[16px] font-bold">Sustainable</div>
@@ -82,7 +86,11 @@ const HomeBanner = () => {
           </div>
           <div className="flex flex-col md:flex-row items-center gap-2 md:leftRight">
             <div className="h-[75px] w-[65px] bg-[#03194a] rounded-xl p-2">
-              <img src="/images/vectors/home-small/education.png" alt="" className="h-full" />
+              <img
+                src="/images/vectors/home-small/education.png"
+                alt="Vengo Development & Cultural Association"
+                className="h-full"
+              />
             </div>
             <div className="flex flex-col text-center md:text-start">
               <div className="text-[16px] font-bold">Education</div>
@@ -91,7 +99,11 @@ const HomeBanner = () => {
           </div>
           <div className="flex flex-col md:flex-row items-center gap-2">
             <div className="h-[75px] w-[65px] bg-[#03194a] rounded-xl p-2">
-              <img src="/images/vectors/home-small/renovation.png" alt="" className="w-full" />
+              <img
+                src="/images/vectors/home-small/renovation.png"
+                alt="Vengo Development & Cultural Association"
+                className="w-full"
+              />
             </div>
             <div className="flex flex-col text-center md:text-start">
               <div className="text-[16px] font-bold">Comminuty</div>

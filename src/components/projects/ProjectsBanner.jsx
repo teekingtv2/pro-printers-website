@@ -6,7 +6,7 @@ const ProjectsBanner = () => {
   return (
     <div className="flex w-full h-full banner text-[#03194a] px-2 md:px-10 mx-auto">
       <div className="bg-[#ffffff] w-full">
-        <div className="py-10 md:pt-[100px] md:pb-[0px] container px-3 md:px-[70px] animate__slower animate__animated animate__zoomIn">
+        <div className="py-[70px] md:pt-[100px] md:pb-[0px] container px-3 md:px-[70px] animate__slower animate__animated animate__zoomIn">
           <div className="md:w-[60%] mx-auto text-[24px] font-bold text-center">
             Learn About Our Projects
           </div>

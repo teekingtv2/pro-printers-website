@@ -12,7 +12,7 @@ const HomeBannerBottom = () => {
           />
           <div className="flex flex-col gap-1">
             <div className="text-[16px] font-bold">Sustainable development</div>
-            <div className="text-[13px]">
+            <div className="text-[14px]">
               We support community-led initiatives and projects focused on livelihoods...
             </div>
           </div>
@@ -25,7 +25,7 @@ const HomeBannerBottom = () => {
           />
           <div className="flex flex-col gap-1">
             <div className="text-[16px] font-bold">Education & skills development</div>
-            <div className="text-[13px]">
+            <div className="text-[14px]">
               We offer training programs, workshops, and scholarships to individuals...
             </div>
           </div>
@@ -37,8 +37,8 @@ const HomeBannerBottom = () => {
             className="bg-[#e9faef] w-[65px] rounded-[50%] h-[65px] md:h-[65px]"
           />
           <div className="flex flex-col gap-1">
-            <div className="text-[14px] font-semibold">Cultural exchange</div>
-            <div className="text-[13px]">
+            <div className="text-[16px] font-bold">Cultural exchange</div>
+            <div className="text-[14px]">
               We facilitate cultural exchange programs, events, and festivals...
             </div>
           </div>
