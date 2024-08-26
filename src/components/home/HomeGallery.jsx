@@ -18,7 +18,7 @@ const HomeGallery = () => {
               exchange, and sustainable development. We believe in the power of collaboration and
               inclusivity, and we are dedicated to creating positive change in the world.
             </div>
-            <Link href="/gallery" className="max-w-[220px] mt-5">
+            <Link href="#" className="max-w-[220px] mt-5">
               <div className="btnn primaryBtnn text-md font-bold hover:border-b flex justify-center items-center">
                 <span className="mr-2">View our gallery</span>
                 <span>
@@ -40,22 +40,16 @@ const HomeGallery = () => {
           <Link href="/images/events/2.jpg" className="col-span-1">
             <img src="/images/events/2.jpg" alt="" className="w-[100%] h-[150px] md:h-[150px]" />
           </Link>
-          <Link href="/images/events/10.jpg" className="col-span-1">
+          <Link href="/images/events/1.jpg" className="col-span-1">
             <img
-              src="/images/events/10.jpg"
+              src="/images/events/1.jpg"
               alt=""
               className="w-[100%] h-[150px] md:h-[150px]"
               style={{ borderTopRightRadius: '13px' }}
             />
           </Link>
-          <Link href="/images/events/2.jpg" className="col-span-1">
-            <img src="/images/events/2.jpg" alt="" className="w-[100%] h-[150px] md:h-[150px]" />
-          </Link>
-          <Link href="/images/events/4.jpg" className="col-span-1">
-            <img src="/images/events/4.jpg" alt="" className="w-[100%] h-[150px] md:h-[150px]" />
-          </Link>
-          <Link href="/images/events/10.jpg" className="col-span-1">
-            <img src="/images/events/10.jpg" alt="" className="w-[100%] h-[150px] md:h-[150px]" />
+          <Link href="/images/events/3.jpg" className="col-span-1">
+            <img src="/images/events/3.jpg" alt="" className="w-[100%] h-[150px] md:h-[150px]" />
           </Link>
           <Link href="/images/events/5.jpg" className="col-span-1">
             <img src="/images/events/5.jpg" alt="" className="w-[100%] h-[150px] md:h-[150px]" />
@@ -63,23 +57,29 @@ const HomeGallery = () => {
           <Link href="/images/events/6.jpg" className="col-span-1">
             <img src="/images/events/6.jpg" alt="" className="w-[100%] h-[150px] md:h-[150px]" />
           </Link>
-          <Link href="/images/events/15.jpg" className="col-span-1">
-            <img src="/images/events/15.jpg" alt="" className="w-[100%] h-[150px] md:h-[150px]" />
+          <Link href="/images/events/7.jpg" className="col-span-1">
+            <img src="/images/events/7.jpg" alt="" className="w-[100%] h-[150px] md:h-[150px]" />
           </Link>
-          <Link href="/images/events/2.jpg" className="col-span-1">
+          <Link href="/images/events/8.jpg" className="col-span-1">
+            <img src="/images/events/8.jpg" alt="" className="w-[100%] h-[150px] md:h-[150px]" />
+          </Link>
+          <Link href="/images/events/9.jpg" className="col-span-1">
+            <img src="/images/events/9.jpg" alt="" className="w-[100%] h-[150px] md:h-[150px]" />
+          </Link>
+          <Link href="/images/events/10.jpg" className="col-span-1">
             <img
-              src="/images/events/2.jpg"
+              src="/images/events/10.jpg"
               alt=""
               className="w-[100%] h-[150px] md:h-[150px]"
               style={{ borderBottomLeftRadius: '13px' }}
             />
           </Link>
-          <Link href="/images/events/2.jpg" className="col-span-1">
-            <img src="/images/events/2.jpg" alt="" className="w-[100%] h-[150px] md:h-[150px]" />
+          <Link href="/images/events/11.jpg" className="col-span-1">
+            <img src="/images/events/11.jpg" alt="" className="w-[100%] h-[150px] md:h-[150px]" />
           </Link>
-          <Link href="/images/events/2.jpg" className="col-span-1">
+          <Link href="/images/events/12.jpg" className="col-span-1">
             <img
-              src="/images/events/2.jpg"
+              src="/images/events/12.jpg"
               alt=""
               className="w-[100%] h-[150px] md:h-[150px]"
               style={{ borderBottomRightRadius: '13px' }}

@@ -38,7 +38,7 @@ const HomeChapters = () => {
                 </div>
                 <img
                   // src="/images/vectors/health.png"
-                  src="/images/events/16.jpg"
+                  src="/images/events/dmv-home.jpg"
                   alt="Vengo Development & Cultural Association"
                   className="w-full"
                 />
@@ -81,7 +81,7 @@ const HomeChapters = () => {
                 </div>
                 <img
                   // src="/images/vectors/community.png"
-                  src="/images/events/9.jpg"
+                  src="/images/events/texas-branch.jpg"
                   alt="Vengo Development & Cultural Association"
                   className="w-[90%] mx-auto"
                 />

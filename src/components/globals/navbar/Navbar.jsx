@@ -119,13 +119,13 @@ const Navbar = () => {
             className={
               nav
                 ? 'fixed left-0 top-0 ease-in duration-500 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#0b0d13] p-10 '
-                : 'fixed left-[-100%] top-0 ease-in duration-500 p-10'
+                : 'fixed left-[-120%] top-0 ease-in duration-500 p-10'
             }
           >
             <div>
               <div className="flex w-full justify-between items-center">
                 <Link href="/">
-                  <Image
+                  <img
                     src="/images/logo.png"
                     alt={`${process.env.APP_NAME}`}
                     width="75"
