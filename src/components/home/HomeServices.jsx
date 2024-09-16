@@ -11,8 +11,8 @@ const HomeServices = () => {
           Here are some of <span className="text-[#0047AB]">the services</span> we offer
         </h1>
         <p className="w-[95%] md:w-[60%] mx-auto text-[15px]">
-          Discover {process.env.APP_NAME}'s range of high-quality products designed to meet all your
-          promotional and branding needs.
+          Discover {process.env.APP_NAME}&apos;s range of high-quality products designed to meet all
+          your promotional and branding needs.
         </p>
       </div>
 
