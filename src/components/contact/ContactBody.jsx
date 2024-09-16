@@ -112,7 +112,9 @@ const ContactBody = () => {
                   </div>
                   <h3 className="text-[19px] text-center pb-1">Address</h3>
                   <p className="text-[14px] text-center">
-                    Head Office: 58, Isa Street, <br /> Ba Wahala, Palmgroove <br /> Lagos.
+                    Proprinters Agency, 51A Dabira Street, <br /> by Akeju Street off Oguntolu
+                    Street,
+                    <br /> Onipanu, Lagos.
                   </p>
                 </div>
                 <div className="group col-span-1 bg-transparent rounded-[50px] py-6 px-6 flex flex-col gap-4 hover:scale-105 hover:bg-white cardHoverShadow ease-in duration-300">
@@ -130,7 +132,11 @@ const ContactBody = () => {
                     <div className="flex gap-2 justify-center mb-2">
                       <FaPhone size={18} color="#0047AB" />
                       <a href="tel:+234 808 312 4442" className="text-[#0047AB]">
-                        +234 808 312 4442
+                        08083124442
+                      </a>
+                      ,
+                      <a href="tel:+234 808 312 4442" className="text-[#0047AB]">
+                        08083124442
                       </a>
                     </div>
                     <div className="flex gap-2 justify-center mb-2">

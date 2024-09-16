@@ -9,11 +9,11 @@ const TopBar = () => {
         <meta property="og:title" content="Printing Press Company in Lagos" />
         <meta
           name="description"
-          content="Welcome to Pro Printers Agency - your go-to destination for premium custom gift item branding in Ilorin and Lagos. Specializing in UV printing, DTF printing, Large Format Printing (Flex Banner, Stickers), Office Branding, Custom Wall Papers, Vehicle branding, Display Stand, POSM, Product Labels and custom gift and promotional Items"
+          content="Welcome to Pro Printers Agency Limited - your go-to destination for premium custom gift item branding in Ilorin and Lagos. Specializing in UV printing, DTF printing, Large Format Printing (Flex Banner, Stickers), Office Branding, Custom Wall Papers, Vehicle branding, Display Stand, POSM, Product Labels and custom gift and promotional Items"
         />
         <meta
           name="keywords"
-          content="Pro Printers, Pro Printers Agency, Printing Press in Lagos, Printing Press in Nigeria, Best Printing Services in Lagos, Best Printing Services in Nigeria, premium custom gift item branding in Ilorin and Lagos, Specializing in UV printing, DTF printing, Large Format Printing (Flex Banner, Stickers), Office Branding, Custom Wall Papers, Vehicle branding, Display Stand, POSM, Product Labels and custom gift and promotional Item"
+          content="Pro Printers, Pro Printers Agency Limited, Printing Press in Lagos, Printing Press in Nigeria, Best Printing Services in Lagos, Best Printing Services in Nigeria, premium custom gift item branding in Ilorin and Lagos, Specializing in UV printing, DTF printing, Large Format Printing (Flex Banner, Stickers), Office Branding, Custom Wall Papers, Vehicle branding, Display Stand, POSM, Product Labels and custom gift and promotional Item"
         />
       </Head>
       <div className="z-50 fixed top-[0px] w-full topBarBg p-2 flex justify-between items-center px-3 md:px-[100px] text-[#fff] font-normal md:font-semibold text-[12px] md:text-[14px]">

@@ -14,8 +14,8 @@ const ServicesBody = () => {
             <span className="text-[#FFBA21]"> For Your </span> Business
           </h1>
           <p className="w-full md:w-[70%] text-center text-13px">
-            We have all the equipment, know-how and every thing you will need to receive fast,
-            reliable printing services with high quality results. Chat live with us today to get
+            We have all the equipment, know-how and every thing you will need to receive fast and
+            reliable printing services with high quality results. Get in touch with us today to get
             things moving.
           </p>
         </div>
@@ -108,7 +108,7 @@ const ServicesBody = () => {
                   </div>
                   <h3 className="text-[19px] text-center pb-1 textBlueGradient">Direct UV</h3>
                   <p className="text-center">
-                    If you need print design concepts that will make your project shine, then it's
+                    If you need print design concepts that will make your project shine, then it is
                     worth investing in a quality graphic designer.
                   </p>
                 </div>
@@ -161,7 +161,7 @@ const ServicesBody = () => {
                   </div>
                   <h3 className="text-[19px] text-center pb-1 textBlueGradient">UV DTF</h3>
                   <p className="text-center">
-                    If you need print design concepts that will make your project shine, then it's
+                    If you need print design concepts that will make your project shine, then it is
                     worth investing in a quality graphic designer.
                   </p>
                 </div>
@@ -238,7 +238,7 @@ const ServicesBody = () => {
                   </div>
                   <h3 className="text-[19px] text-center pb-1 textBlueGradient">Fabric DTF</h3>
                   <p className="text-center">
-                    If you need print design concepts that will make your project shine, then it's
+                    If you need print design concepts that will make your project shine, then it is
                     worth investing in a quality graphic designer.
                   </p>
                 </div>
@@ -307,7 +307,7 @@ const ServicesBody = () => {
                   </div>
                   <h3 className="text-[19px] text-center pb-1 textBlueGradient">Large Format</h3>
                   <p className="text-center">
-                    If you need print design concepts that will make your project shine, then it's
+                    If you need print design concepts that will make your project shine, then it is
                     worth investing in a quality graphic designer.
                   </p>
                 </div>
@@ -399,7 +399,7 @@ const ServicesBody = () => {
                     Display Stand & PoSM
                   </h3>
                   <p className="text-center">
-                    If you need print design concepts that will make your project shine, then it's
+                    If you need print design concepts that will make your project shine, then it is
                     worth investing in a quality graphic designer.
                   </p>
                 </div>
@@ -468,7 +468,7 @@ const ServicesBody = () => {
                   </div>
                   <h3 className="text-[19px] text-center pb-1 textBlueGradient">Gift Items</h3>
                   <p className="text-center">
-                    If you need print design concepts that will make your project shine, then it's
+                    If you need print design concepts that will make your project shine, then it is
                     worth investing in a quality graphic designer.
                   </p>
                 </div>
