@@ -10,11 +10,11 @@ const ServicesBody = () => {
         <div className="animate__slower animate__animated animate__zoomIn mx-auto flex flex-col items-center gap-4 md:gap-3">
           <p className="uppercase font-semibold text-[14px] text-[#0047AB]">Our Services</p>
           <h1 className="w-full md:w-[50%] text-[#000] text-[30px] md:text-[38px] font-semibold mb-5 leading-[35px] md:leading-[45px] text-center">
-            Special Stuning<span className="text-[#0047AB]"> Services </span> we
-            <span className="text-[#FFBA21]"> For Your </span> Business
+            Special stunning<span className="text-[#0047AB]"> Services </span> for your
+            <span className="text-[#FFBA21]"> Business </span>
           </h1>
           <p className="w-full md:w-[70%] text-center text-13px">
-            We have all the equipment, know-how and every thing you will need to receive fast and
+            We have all the equipment, knowhow and every thing you will need to receive fast and
             reliable printing services with high quality results. Get in touch with us today to get
             things moving.
           </p>
