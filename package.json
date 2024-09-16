@@ -1,12 +1,12 @@
 {
-  "name": "vengo-website",
-  "homepage": "https://vedcausa.org/",
+  "name": "pro-printers-website",
+  "homepage": "https://proprintersagency.com/",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js",
+    "start": "cross-env NODE_ENV=development node server.js",
     "lint": "next lint",
     "export": "next export"
   },

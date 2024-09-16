@@ -1,7 +1,5 @@
-import FooterJoin from '@/components/globals/FooterJoin';
-import ProjectsBanner from '@/components/projects/ProjectsBanner';
-import React from 'react';
 import 'animate.css';
+import ProjectsBody from '@/components/projects/ProjectsBody';
 
 export const metadata = {
   title: 'Our Recent Projects',
@@ -10,8 +8,7 @@ export const metadata = {
 const ProjectsPage = () => {
   return (
     <>
-      <ProjectsBanner />
-      <FooterJoin />
+      <ProjectsBody />
     </>
   );
 };

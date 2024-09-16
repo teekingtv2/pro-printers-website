@@ -1,46 +1,36 @@
 'use client';
 
+import { FaTruck } from 'react-icons/fa';
+import { MdOutlineHighQuality, MdSupportAgent } from 'react-icons/md';
+import { GiPriceTag } from 'react-icons/gi';
+import { TbTruckDelivery } from 'react-icons/tb';
+
 const HomeBannerBottom = () => {
   return (
     <div className="flex bg-[#ffffff] w-full h-full">
-      <div className="py-10 md:py-[90px] container mx-auto text-[#01081a] px-5 md:px-2 grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-[10px] items-center">
-        <div className="col-span-1 flex justify-center gap-2">
-          <img
-            src="/images/vectors/home-small/happy.svg"
-            alt=""
-            className="bg-[#e9faef] w-[65px] rounded-[50%] h-[65px] md:h-[65px]"
-          />
-          <div className="flex flex-col gap-1">
-            <div className="text-[16px] font-bold">Sustainable development</div>
-            <div className="text-[14px]">
-              We support community-led initiatives and projects focused on livelihoods...
-            </div>
+      <div className="animate__slower animate__animated animate__zoomIn py-8 md:py-[50px] container mx-auto text-[#01081a] px-2 md:px-2 grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-[10px] items-center">
+        <div className="col-span-1 flex justify-center items-center gap-1 md:gap-2">
+          <TbTruckDelivery size={20} />
+          <div className="text-[13px] md:text-[16px] font-normal md:font-semibold">
+            Fast project delivery
           </div>
         </div>
-        <div className="col-span-1 flex justify-center gap-2">
-          <img
-            src="/images/vectors/home-small/skill.svg"
-            alt=""
-            className="bg-[#e9faef] w-[65px] rounded-[50%] h-[65px] md:h-[65px]"
-          />
-          <div className="flex flex-col gap-1">
-            <div className="text-[16px] font-bold">Education & skills development</div>
-            <div className="text-[14px]">
-              We offer training programs, workshops, and scholarships to individuals...
-            </div>
+        <div className="col-span-1 flex justify-center items-center gap-1 md:gap-2">
+          <MdSupportAgent size={20} />
+          <div className="text-[13px] md:text-[16px] font-normal md:font-semibold">
+            Top-notch support
           </div>
         </div>
-        <div className="col-span-1 flex justify-center gap-2">
-          <img
-            src="/images/vectors/home-small/event.svg"
-            alt=""
-            className="bg-[#e9faef] w-[65px] rounded-[50%] h-[65px] md:h-[65px]"
-          />
-          <div className="flex flex-col gap-1">
-            <div className="text-[16px] font-bold">Cultural exchange</div>
-            <div className="text-[14px]">
-              We facilitate cultural exchange programs, events, and festivals...
-            </div>
+        <div className="col-span-1 flex justify-center items-center gap-1 md:gap-2">
+          <GiPriceTag size={20} />
+          <div className="text-[13px] md:text-[16px] font-normal md:font-semibold">
+            Low price guarantee
+          </div>
+        </div>
+        <div className="col-span-1 flex justify-center items-center gap-1 md:gap-2">
+          <MdOutlineHighQuality size={20} />
+          <div className="text-[13px] md:text-[16px] font-normal md:font-semibold">
+            High quality works
           </div>
         </div>
       </div>

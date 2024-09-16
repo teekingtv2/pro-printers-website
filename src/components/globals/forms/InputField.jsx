@@ -16,21 +16,20 @@ const InputField = ({ name, placeholder, type = 'text', className, disabled = fa
 
   return (
     <div className="col-span-1">
-      {type === 'password' ? (
-        <div className="border rounded-md w-[100%] bg-transparent flex items-center gap-1 pe-1">
-          <input
-            value={value}
-            placeholder={placeholder}
-            onChange={handleChange(name)}
-            onBlur={handleBlur(name)}
-            type={showPassword ? 'text' : 'password'}
-            disabled={disabled}
-            className="border-0 w-[90%] bg-transparent p-3 text-[14px] font-[400]"
-            autoComplete="off"
-            {...rest}
-          />
-          <FaEye size={17} onClick={togglePassword} />
-        </div>
+      {type === 'textarea' ? (
+        <textarea
+          value={value}
+          onChange={handleChange(name)}
+          onBlur={handleBlur(name)}
+          className="contact-input leftRight"
+          style={{
+            border: error && isInputTouched ? '1px dashed #fd9d9d' : '1px dashed #ffffff',
+            height: '150px',
+          }}
+          autoComplete="off"
+          placeholder={placeholder}
+          {...rest}
+        ></textarea>
       ) : (
         <input
           value={value}
@@ -40,7 +39,9 @@ const InputField = ({ name, placeholder, type = 'text', className, disabled = fa
           type={type}
           disabled={disabled}
           className="contact-input leftRight"
-          style={{ border: error && isInputTouched ? '1px dashed #fd9d9d' : '1px dashed #ffffff' }}
+          style={{
+            border: error && isInputTouched ? '1px dashed #fd9d9d' : '1px dashed #ffffff',
+          }}
           autoComplete="off"
           {...rest}
         />

@@ -1,7 +1,6 @@
-import AboutSecondSection from '@/components/about/AboutSecondSection';
-import AboutThirdSection from '@/components/about/AboutThirdSection';
-import AboutTopSection from '@/components/about/AboutTopSection';
-import FooterJoin from '@/components/globals/FooterJoin';
+import AboutBanner from '@/components/about/AboutBanner';
+import AboutMission from '@/components/about/AboutMission';
+import AboutVision from '@/components/about/AboutVision';
 import 'animate.css';
 
 export const metadata = {
@@ -11,10 +10,9 @@ export const metadata = {
 const AboutPage = () => {
   return (
     <>
-      <AboutTopSection />
-      <AboutSecondSection />
-      <AboutThirdSection />
-      <FooterJoin />
+      <AboutBanner />
+      <AboutVision />
+      <AboutMission />
     </>
   );
 };

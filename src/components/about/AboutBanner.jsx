@@ -1,37 +1,61 @@
 /* eslint-disable @next/next/no-img-element */
 'use client';
 
+import TrackVisibility from 'react-on-screen';
+
 const AboutBanner = () => {
   return (
-    <div className="flex w-full h-full banner text-[#ffffff]">
-      <div className="py-[70px] md:pt-[100px] md:pb-[100px] container">
-        <div className="text-[30px] font-bold text-center mb-6">About VEDCA-USA</div>
-        <div className="col-span-1 text-left">
-          <div
-            className="md:max-w-[70%] mx-auto p-7 rounded-lg "
-            style={{ border: '1px dashed #ffffff' }}
-          >
-            <div className="text-[21px] text-center font-semibold mb-5">
-              Vengo Development and Cultural Association (VEDCA-USA)
-            </div>
-            <div className="text-[15px] my-3">
-              Vengo Development and Cultural Association USA is a non-profit organization founded on
-              the principles of social justice, cultural diversity, and community engagement. As a
-              non-profit, non-governmental organization, VEDCA-USA shall be non-partisan and
-              apolitical.
-            </div>
-            <div className="text-[15px] my-3">
-              VEDCA-USA is an inclusive association nurturing a holistic frame for the promotion of
-              culture, performant and adaptive development, through values that promote individual
-              and collective prosperity in the civic life of the Vengo community
-            </div>
-            <div className="text-[15px] my-3">
-              Our team consists of passionate individuals from diverse backgrounds, united by a
-              shared vision of a better community for all. We strive to create opportunities for our
-              communities and support sustainable development initiatives. Our work is guided by the
-              values of empathy, respect, and transparency
-            </div>
-          </div>
+    <div className="w-full bg-[#ffb92136]">
+      <div className="grid grid-cols-1 md:grid-cols-5 gap-1 md:gap-[50px] px-5 md:px-0 container py-10 md:py-[100px]">
+        <div className="col-span-2 self-center items-center justify-center ">
+          <TrackVisibility>
+            {({ isVisible }) => (
+              <div
+                className={isVisible ? 'animate__slower animate__animated animate__zoomIn ' : ''}
+              >
+                <img
+                  src="/images/about/banner.webp"
+                  alt={process.env.APP_NAME}
+                  className="leftRight"
+                />
+              </div>
+            )}
+          </TrackVisibility>
+        </div>
+        <div className="col-span-3 md:gap-[0px] ps-8 md:ps-0 flex flex-col items-start justify-between gap-8">
+          <TrackVisibility>
+            {({ isVisible }) => (
+              <div className={isVisible ? 'animate__animated animate__slideInRight ' : ''}>
+                <div className="text-[#222222] text-[28px] md:text-[38px] font-semibold text-center mb-0 md:mb-6 mt-[60px] md:mt-0">
+                  About Us
+                </div>
+                <div
+                  className="text-[#000] rounded-[25px] p-3 md:p-8"
+                  style={{ border: '2px dashed #0047AB' }}
+                >
+                  <p className="mb-3">
+                    Proprinters Agency Limited is your go-to destination for premium custom gift
+                    item branding in Ilorin and Lagos. Specializing in UV printing, DTF printing,
+                    Large Format Printing (Flex Banner, Stickers), Office Branding, Custom Wall
+                    Papers, Vehicle branding, Display Stand, POSM, Product Labels and custom gift
+                    and promotional Items.
+                  </p>
+                  <p className="mb-3">
+                    We provide top-notch branding solutions that make your promotional items stand
+                    out. Whether you need to print on pens, notepads, water bottles, phone pouches,
+                    T-shirts, or any other gift item, our cutting-edge technology ensures vibrant,
+                    long-lasting prints. Perfect for businesses, events, or personal use, our
+                    services are tailored to meet your branding needs with precision and creativity.
+                  </p>
+                  <p>
+                    If you are searching for expert gift item branding in Ilorin, Lagos and Nigeria
+                    in general, look no further—Proprinters Agency Limited is here to bring your
+                    brand to life on any item of your choice.
+                  </p>
+                </div>
+              </div>
+            )}
+          </TrackVisibility>
         </div>
       </div>
     </div>

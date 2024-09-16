@@ -4,18 +4,19 @@ import { Inter, Roboto, Poppins, Raleway } from 'next/font/google';
 import Footer from '@/components/globals/Footer';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import TopBar from '@/components/globals/navbar/TopBar';
 
 // const inter = Inter({ subsets: ['latin'] });
-// const poppins = Poppins({
-//   subsets: ['latin'],
-//   display: 'swap',
-//   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-// });
-const raleway = Raleway({
+const poppins = Poppins({
   subsets: ['latin'],
   display: 'swap',
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
 });
+// const raleway = Raleway({
+//   subsets: ['latin'],
+//   display: 'swap',
+//   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+// });
 
 export const metadata = {
   title: {
@@ -42,16 +43,16 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <meta property="og:title" content={`${process.env.APP_NAME}`} />
-        <meta name="theme-color" content="#03194a" />
-        <meta name="msapplication-navbutton-color" content="#03194a" />
-        <meta content="#03194a" name="msapplication-navbutton-color" />
+        <meta name="theme-color" content="#7502d0" />
+        <meta name="msapplication-navbutton-color" content="#7502d0" />
+        <meta content="#7502d0" name="msapplication-navbutton-color" />
         <meta content="yes" name="apple-mobile-web-app-capable" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style" />
         <link rel="icon" href="/images/favicon.png" type="image/<generated>" sizes="<generated>" />
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       </head>
-      <body className={raleway.className}>
+      <body className={poppins.className}>
         <ToastContainer
           position="top-right"
           autoClose={3000}
@@ -63,11 +64,10 @@ export default function RootLayout({ children }) {
           draggable
           pauseOnHover
         />
+        <TopBar />
         <Navbar />
-        <div>{children}</div>
+        <div className="w-full mt-[98px] md:mt-[113px]">{children}</div>
         <Footer />
-        {/* <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>AOS.init()</script> */}
       </body>
     </html>
   );

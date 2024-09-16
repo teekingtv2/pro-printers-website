@@ -18,16 +18,17 @@ const RegisterBody = () => {
 
   const handleSubmit = async (values, { resetForm }) => {
     console.log('values:', values);
+    console.log('process.env.API_ENDPOINT:', process.env.API_ENDPOINT);
     const res = await userRegister(values);
     console.log('res:', res);
     if (res.status === 200) {
       successNotification(res.data.message);
-      resetForm();
+      // resetForm();
       setTimeout(() => {
-        router.push('/');
+        // router.push('/');
       }, 3000);
     } else {
-      errorNotification(res.data.message);
+      errorNotification(res.data.error);
     }
   };
 

@@ -1,21 +1,26 @@
 'use client';
 
-import HomeGallery from '@/components/home/HomeGallery';
-import HomeBanner from '@/components/home/HomeBanner';
 import HomeBannerBottom from '@/components/home/HomeBannerBottom';
-import HomeDonate from '@/components/home/HomeDonate';
-import FooterJoin from '@/components/globals/FooterJoin';
-import HomeChapters from '@/components/home/HomeChapters';
+import HomeBanner from '@/components/home/HomeBanner';
+import HomeHow from '@/components/home/HomeHow';
+import HomeServicesScroll from '@/components/home/HomeServicesScroll';
+import HomeTopCategories from '@/components/home/HomeTopCategories';
+import HomeReadAboutUs from '@/components/home/HomeReadAboutUs';
+import HomeServices from '@/components/home/HomeServices';
+import HomeBlog from '@/components/home/HomeBlog';
+import 'animate.css';
 
 const HomePage = () => {
   return (
     <>
       <HomeBanner />
       <HomeBannerBottom />
-      <HomeChapters />
-      <HomeGallery />
-      <HomeDonate />
-      <FooterJoin />
+      <HomeHow />
+      <HomeServicesScroll />
+      <HomeTopCategories />
+      <HomeReadAboutUs />
+      <HomeServices />
+      <HomeBlog />
     </>
   );
 };
