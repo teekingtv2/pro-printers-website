@@ -14,7 +14,7 @@ const BlogBody = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-9 animate__slower animate__animated animate__zoomIn">
         <div href="" className="col-span-1 flex flex-col gap-3">
-          <img src="/images/home/mock-3.jpg" alt="" className="rounded-[30px] mb-3" />
+          <img src="/images/home/mock3.png" alt="" className="rounded-[30px] mb-3" />
           <div className="px-6 flex flex-col gap-3">
             <p className="uppercase font-semibold text-[14px] text-[#FFBA21] mb-0">
               Creativity 101
@@ -32,7 +32,7 @@ const BlogBody = () => {
           </div>
         </div>
         <div href="" className="col-span-1 flex flex-col gap-3">
-          <img src="/images/home/mock-4.jpg" alt="" className="rounded-[30px] mb-3" />
+          <img src="/images/home/mock4.png" alt="" className="rounded-[30px] mb-3" />
           <div className="px-6 flex flex-col gap-3">
             <p className="uppercase font-semibold text-[14px] text-[#FFBA21] mb-0">Arts & Life</p>
             <Link href="" className="text-[19px] font-semibold leading-[25px] mb-3">
@@ -48,7 +48,7 @@ const BlogBody = () => {
           </div>
         </div>
         <div href="" className="col-span-1 flex flex-col gap-3">
-          <img src="/images/home/mock-5.jpg" alt="" className="rounded-[30px] mb-3" />
+          <img src="/images/home/mock5.png" alt="" className="rounded-[30px] mb-3" />
           <div className="px-6 flex flex-col gap-3">
             <p className="uppercase font-semibold text-[14px] text-[#FFBA21] mb-0">Printing</p>
             <Link href="" className="text-[19px] font-semibold leading-[25px] mb-3">
@@ -64,7 +64,7 @@ const BlogBody = () => {
           </div>
         </div>
         <div href="" className="col-span-1 flex flex-col gap-3">
-          <img src="/images/home/mock-5.jpg" alt="" className="rounded-[30px] mb-3" />
+          <img src="/images/home/mock3.png" alt="" className="rounded-[30px] mb-3" />
           <div className="px-6 flex flex-col gap-3">
             <p className="uppercase font-semibold text-[14px] text-[#FFBA21] mb-0">Printing</p>
             <Link href="" className="text-[19px] font-semibold leading-[25px] mb-3">
@@ -80,7 +80,7 @@ const BlogBody = () => {
           </div>
         </div>
         <div href="" className="col-span-1 flex flex-col gap-3">
-          <img src="/images/home/mock-5.jpg" alt="" className="rounded-[30px] mb-3" />
+          <img src="/images/home/mock5.png" alt="" className="rounded-[30px] mb-3" />
           <div className="px-6 flex flex-col gap-3">
             <p className="uppercase font-semibold text-[14px] text-[#FFBA21] mb-0">Printing</p>
             <Link href="" className="text-[19px] font-semibold leading-[25px] mb-3">
@@ -96,7 +96,7 @@ const BlogBody = () => {
           </div>
         </div>
         <div href="" className="col-span-1 flex flex-col gap-3">
-          <img src="/images/home/mock-5.jpg" alt="" className="rounded-[30px] mb-3" />
+          <img src="/images/home/mock4.png" alt="" className="rounded-[30px] mb-3" />
           <div className="px-6 flex flex-col gap-3">
             <p className="uppercase font-semibold text-[14px] text-[#FFBA21] mb-0">Printing</p>
             <Link href="" className="text-[19px] font-semibold leading-[25px] mb-3">
