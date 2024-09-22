@@ -9,10 +9,12 @@ import HomeReadAboutUs from '@/components/home/HomeReadAboutUs';
 import HomeServices from '@/components/home/HomeServices';
 import HomeBlog from '@/components/home/HomeBlog';
 import 'animate.css';
+import HomeSlider from '@/components/home/HomeSlider';
 
 const HomePage = () => {
   return (
     <>
+      <HomeSlider />
       <HomeBanner />
       <HomeBannerBottom />
       <HomeHow />

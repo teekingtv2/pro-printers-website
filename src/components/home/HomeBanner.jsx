@@ -5,7 +5,7 @@ import TrackVisibility from 'react-on-screen';
 
 const HomeBanner = () => {
   return (
-    <div className="bg-[#ffb92144]">
+    <div className="bg-[#FFBA21]">
       <div className="max-w-[1300px] mx-auto ">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           <div className="col-span-1 flex flex-col items-center justify-center py-[80px] md:py-5 h-full">
@@ -41,7 +41,7 @@ const HomeBanner = () => {
                 <div
                   className={isVisible ? 'animate__slower animate__animated animate__zoomIn ' : ''}
                 >
-                  <img src="/images/home/mock-2.png" alt="" className="w-[1500px]" />
+                  <img src="/images/home/mock2.png" alt="" className="w-[1500px]" />
                 </div>
               )}
             </TrackVisibility>

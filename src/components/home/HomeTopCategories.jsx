@@ -4,20 +4,20 @@ import { FaArrowUp } from 'react-icons/fa';
 
 const HomeTopCategories = () => {
   return (
-    <div className="animate__slower animate__animated animate__zoomIn bg-[#F5F7FA] grid grid-cols-1 md:grid-cols-2 gap-9 ps-5 md:ps-[50px] lg:ps-[150px] xl:ps-[200px] pe-5 md:pe-0 pt-[70px] md:pt-[100px] pb-[300px] md:pb-[100px]">
+    <div className="animate__slower animate__animated animate__zoomIn bg-[#F5F7FA] grid grid-cols-1 md:grid-cols-2 gap-[100px] md:gap-9 ps-5 md:ps-[50px] lg:ps-[150px] xl:ps-[200px] pe-5 md:pe-0 pt-[70px] md:pt-[100px] pb-[400px] md:pb-[100px]">
       <div className="col-span-1 grid grid-cols-1 md:grid-cols-2 gap-5 items-center relative">
         <div className="absolute h-6 w-6 rounded-[50%] bg-[#FFBA21] top-[5%] left-[25%] updown"></div>
         <div className="absolute h-6 w-6 rounded-[50%] bg-[#0047AB] bottom-[5%] left-[45%]"></div>
         <div className="flex justify-center">
           <img
-            src="/images/home/cat-1.jpg"
+            src="/images/home/cat1.png"
             alt=""
             className="h-[450px] w-[350px] rounded-3xl leftRight"
           />
         </div>
         <div className="flex flex-col items-start gap-8">
-          <img src="/images/home/cat-2.jpg" alt="" className="h-[350px] w-[350px] rounded-3xl" />
-          <img src="/images/home/cat-3.jpg" alt="" className="h-[350px] w-[350px] rounded-3xl" />
+          <img src="/images/home/cat2.png" alt="" className="h-[350px] w-[350px] rounded-3xl" />
+          <img src="/images/home/cat3.png" alt="" className="h-[350px] w-[350px] rounded-3xl" />
         </div>
       </div>
       <div

@@ -20,7 +20,7 @@ const TopBar = () => {
         <div className="w-full md:w-auto flex justify-between md:justify-normal md:gap-5">
           <div className="flex items-center gap-1 md:gap-2">
             <FaPhone />
-            <a href="tel:+2349046832081">+2349046832081</a>
+            <a href="tel:+2349046832081">+2348083124442</a>
           </div>
           <div className="flex items-center gap-1 md:gap-2">
             <FaMailBulk />

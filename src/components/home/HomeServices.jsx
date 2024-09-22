@@ -18,27 +18,27 @@ const HomeServices = () => {
 
       <div className="animate__slower animate__animated animate__zoomIn grid grid-cols-1 md:grid-cols-3 gap-9 animate__slower animate__animated animate__zoomIn">
         <div className="col-span-1 flex flex-col gap-2 items-center text-center">
-          <img src="/images/home/service-1.jpg" alt="" className="rounded-3xl mb-2" />
+          <img src="/images/home/service1.png" alt="" className="rounded-3xl mb-2" />
           <h2 className="text-[18px] font-semibold">Direct UV</h2>
         </div>
         <div className="col-span-1 flex flex-col gap-2 items-center text-center">
-          <img src="/images/home/service-2.jpg" alt="" className="rounded-3xl mb-2" />
+          <img src="/images/home/service2.png" alt="" className="rounded-3xl mb-2" />
           <h2 className="text-[18px] font-semibold">UV DTF</h2>
         </div>
         <div className="col-span-1 flex flex-col gap-2 items-center text-center">
-          <img src="/images/home/service-3.jpg" alt="" className="rounded-3xl mb-2" />
+          <img src="/images/home/service3.png" alt="" className="rounded-3xl mb-2" />
           <h2 className="text-[18px] font-semibold">Fabric DTF</h2>
         </div>
         <div className="col-span-1 flex flex-col gap-2 items-center text-center">
-          <img src="/images/home/service-4.jpg" alt="" className="rounded-3xl mb-2" />
+          <img src="/images/home/service4.png" alt="" className="rounded-3xl mb-2" />
           <h2 className="text-[18px] font-semibold">Large Format</h2>
         </div>
         <div className="col-span-1 flex flex-col gap-2 items-center text-center">
-          <img src="/images/home/service-5.jpg" alt="" className="rounded-3xl mb-2" />
+          <img src="/images/home/service5.jpg" alt="" className="rounded-3xl mb-2" />
           <h2 className="text-[18px] font-semibold">Display Stand & PoSM</h2>
         </div>
         <div className="col-span-1 flex flex-col gap-2 items-center text-center">
-          <img src="/images/home/service-6.jpg" alt="" className="rounded-3xl mb-2" />
+          <img src="/images/home/service6.png" alt="" className="rounded-3xl mb-2" />
           <h2 className="text-[18px] font-semibold">Gift Items</h2>
         </div>
       </div>

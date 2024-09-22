@@ -72,13 +72,6 @@ const Navbar = () => {
               <li className="navLink">Services</li>
             </Link>
             <Link
-              href="/contact"
-              className={activeLink === 'contact' ? 'active' : ''}
-              onClick={() => onUpdateActiveLink('contact')}
-            >
-              <li className="navLink">Contact</li>
-            </Link>
-            <Link
               href="/blog"
               className={activeLink === 'blog' ? 'active' : ''}
               onClick={() => onUpdateActiveLink('blog')}

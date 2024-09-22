@@ -14,7 +14,7 @@ const HomeHow = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-9">
         <div className="col-span-1 flex flex-col gap-2 items-center text-center">
-          <img src="/images/home/mock-3.jpg" alt="" className="rounded-3xl mb-2" />
+          <img src="/images/home/mock3.png" alt="" className="rounded-3xl mb-2" />
           <h2 className="text-[18px] font-semibold">Pick your product</h2>
           <p className="text-[14px]">
             From t-shirts to totes, select from our large range of high-quality clothing and
@@ -22,7 +22,7 @@ const HomeHow = () => {
           </p>
         </div>
         <div className="col-span-1 flex flex-col gap-2 items-center text-center">
-          <img src="/images/home/mock-4.jpg" alt="" className="rounded-3xl mb-2" />
+          <img src="/images/home/mock4.png" alt="" className="rounded-3xl mb-2" />
           <h2 className="text-[18px] font-semibold">Create your design</h2>
           <p className="text-[14px]">
             Our free online design tool makes creating simple. Choose from hundreds of fonts,
@@ -30,7 +30,7 @@ const HomeHow = () => {
           </p>
         </div>
         <div className="col-span-1 flex flex-col gap-2 items-center text-center">
-          <img src="/images/home/mock-5.jpg" alt="" className="rounded-3xl mb-2" />
+          <img src="/images/home/mock5.png" alt="" className="rounded-3xl mb-2" />
           <h2 className="text-[18px] font-semibold">Leave the rest to us</h2>
           <p className="text-[14px]">
             Once your masterpiece is complete, simply place your order. Your expertly printed item
